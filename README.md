@@ -66,11 +66,15 @@ that is showing my book. Change the ESSID, wifi password, and host to suit your 
 ### rowing-machine-reader.py
 This is the client that runs on my mac. It listens for UDP datagrams that contain "prev" and "next"
 and then runs a short little AppleScript to send the keyboard events for left and right arrow to the
-Kindle app. It's absurd how Apple made this sort of thing!
+Kindle app. It's absurd how easy Apple made this sort of thing! I went from having never used
+AppleScript in my life to having working code in about a minute, most of which was spent using
+Google. Job well done Apple.
 
 ## Assembly
 Check out the fritzing diagram. Assembly is pretty easy to get it functional on the bench... though
-making it pretty is always a challenge.
+making it pretty is always a challenge. Seriously, this is about as easy of a circuit as you'll
+ever find - no resistors, capacitors, etc - just wires, pins, and solder. Good thing I have a
+college degree in electrical engineering.
 
 ## Questions You May Have (comments I don't care to explain again)
 What about security? The network connection is not authenticated, and it's not encrypted. I'm using
@@ -91,6 +95,9 @@ on my bench for about 3 weeks before I busted out the soldering iron and drill a
 for real.
 
 How do I charge it? I take the cover off, pull the battery, and charge it with another lipo
+
+Do I actually use this? Yes, I do. I bought a thousand dollar professional rowing machine and
+attached a battery powered microcontroller to it with wires hanging out and I use it.
 charger. I had wanted to mount a USB port on the side that ran back to the mcu, but the
 one I had wouldn't fit in the case when plugged into the board. So I gave up and just take it
 out. The 500mAH batter lasts for many rowing sessions though, so I do it like once a month.
