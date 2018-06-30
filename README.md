@@ -1,5 +1,5 @@
 # rowing-machine-reader
-Push buttons to wirelessly change pages on an ebook.
+Push buttons to wirelessly change pages on an ebook reader!
 
 I have a rowing machine. I should use it more than I do. I have a television mounted where I can see it,
 and sometimes I watch television while I exercise. Sometimes I would rather read a book while I row, but
@@ -43,11 +43,11 @@ is rechargable. I got one of [these](https://www.adafruit.com/product/1578) alon
 You need something to put the guts in that you can then lash down with zip ties or something. You'll need
 to drill some holes in it for the wires to get out to the button board, as well as for the power
 switch. If you wanted to be fancy, attach an LED to it to let you know when it's on or something. I
-bought something on Amazon that shipped from China and it took like a month to get it. Whatever.
+bought a bunch on Amazon for $2/each that shipped from China and it took like a month to get it. Whatever.
 
 ### Power Switch
 Buy a 2 pin on/off switch that can be mounted to the case. Again, no idea where I got mine at (I raided
-a bunch of Radioshacks when they were going out of business so probably one of them, but this should cost
+a bunch of Radioshacks when they were going out of business so probably one of them) but this should cost
 like a quarter.
 
 ### A Mac with Kindle App and Content to Read
@@ -89,3 +89,8 @@ called main.cpp when I copied it off so consider this an improvement. You're wel
 How long did this take to make? I prototyped it in about half an hour on a breadboard. Then it sat
 on my bench for about 3 weeks before I busted out the soldering iron and drill and made it work
 for real.
+
+How do I charge it? I take the cover off, pull the battery, and charge it with another lipo
+charger. I had wanted to mount a USB port on the side that ran back to the mcu, but the
+one I had wouldn't fit in the case when plugged into the board. So I gave up and just take it
+out. The 500mAH batter lasts for many rowing sessions though, so I do it like once a month.
