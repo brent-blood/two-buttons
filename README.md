@@ -54,8 +54,8 @@ like a quarter.
 I really should spend some more time with this to get it working with something other than my mac laptop
 but I'm lazy (hence needing something to read while exercising) and this was easy due to Applescript
 being so simple to use and the presence of a well-written Amazon Kindle app with lots of content. I
-could probably get this working with a Linux computer running on an arm SoC too via something like
-[xdotool](https://github.com/jordansissel/xdotool) but for now this is what I got.
+could probably get this working with a Linux-powered arm SoC too via something like [xdotool](https://github.com/jordansissel/xdotool)
+but for now this is what I got.
 
 ## Code
 
@@ -69,5 +69,23 @@ and then runs a short little AppleScript to send the keyboard events for left an
 Kindle app. It's absurd how Apple made this sort of thing!
 
 ## Assembly
-Check out the fritzing image. Assembly is pretty easy to get it functional on the bench... though
+Check out the fritzing diagram. Assembly is pretty easy to get it functional on the bench... though
 making it pretty is always a challenge.
+
+## Questions You May Have (comments I don't care to explain again)
+What about security? The network connection is not authenticated, and it's not encrypted. I'm using
+it in my friggin basement on my own wifi and that's fine. If you use this in public, it's still
+probably fine to not have it authenticated or encrypted because seriously nobody is going to mess
+with it - but in the spirit of hacking, feel free to extend it.
+
+Why didn't I use bluetooth or xbee or smoke signals or something else? I dunno. This is what I had
+lying around.
+
+Why is the arduino sketch file named rowing-machine-reader.cpp and not something that ends in
+.ino? Why does it include a header file for Arduino.h? Because the arduino IDE is an aweful piece
+of software and I made this using [PlatformIO](https://platformio.org/). The file was actually
+called main.cpp when I copied it off so consider this an improvement. You're welcome.
+
+How long did this take to make? I prototyped it in about half an hour on a breadboard. Then it sat
+on my bench for about 3 weeks before I busted out the soldering iron and drill and made it work
+for real.
