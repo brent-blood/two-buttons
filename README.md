@@ -1,13 +1,17 @@
 # rowing-machine-reader
-Push buttons to wirelessly change pages on an ebook reader!
+Push buttons to wirelessly do simple things when your hands are occupied.
 
-I have a rowing machine. I should use it more than I do. I have a television mounted where I can see it,
-and sometimes I watch television while I exercise. Sometimes I would rather read a book while I row, but
-that's difficult. So I got to thinking... why not cobble together something that can simplify it down to
-two buttons (_prev_ and _next_) attached to inputs on a microcontroller with wifi - and send a signal to
-a computer that displays books on my television and responds to those commands by turning the pages.
+I have a rowing machine. I should use it more than I do. I have a television mounted where I can see it
+with a Tivo Mini, and sometimes I watch television while I exercise - and I want to skip commercials but
+I don't want to stop rowing to reach for the remote constantly. Sometimes I would rather read a book
+while I row, but that's even more difficult. So I got to thinking... why not cobble together something
+that can simplify it down to two buttons (_prev_ and _next_) attached to inputs on a microcontroller with
+wifi - and sends signals to various things like skipping commercials on my Tivo or changing the page on 
+an eBook?
 
 So I made that. It actually does make the time go faster.
+
+I probably should have spent the time actually rowing rather than coding and soldering, but whatever.
 
 ## Components
 
