@@ -17,8 +17,7 @@ So I made that. It actually does make the time go faster.
 I used an [Adafruit Feather Huzzah32](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview)
 for the final solution, but I prototyped with a cheap NodeMCU board (ESP8266). I made it battery powered,
 which would have worked with the NodeMCU and a 9V battery, but I chose to use a lipo battery and the
-adafruit board has a builtin lipo charger (which I didn't end up using), more inputs, etc. Use whatever
-you want really.
+adafruit board has a builtin lipo charger, more inputs, etc. Use whatever you want really.
 
 I combined this with the [Assembled Terminal Block](https://www.adafruit.com/product/2926) Feather addon
 because it allows me to put it all together without having to solder the ESP32 to a board. I tend to tear
@@ -70,7 +69,7 @@ like a quarter.
 ### Potentiometer
 I needed to pick from 3 functions: Kindle, Tivo 30s skip, Tivo commercial skip based on what I was doing
 or what I was watching (some programs let you skip entire commercial breaks with one button push, but not
-all (such as sporting events), so a regular two-state switch wouldn't work - and I didn't want to mess with
+all (such as sporting events)), so a regular two-state switch wouldn't work - and I didn't want to mess with
 something like a rotary encoder - so a pot connected to an analog input with different ranges assigned to
 the different functions is easy. I don't even know what value I used as it realy doesn't matter. Maybe 10k?
 
@@ -122,10 +121,10 @@ college degree in electrical engineering.
 
 ## Questions You May Have (comments I don't care to explain again)
 
-**What did my wife say when she saw this?** The first words out of my wife's mouth were: "It looks
+**What did your wife say when she saw this?** The first words out of my wife's mouth were: "It looks
 like a bomb".
 
-**Do I actually use this?** Yes, I do. I bought a thousand dollar professional rowing machine and
+**Do you actually use this?** Yes, I do. I bought a thousand dollar professional rowing machine and
 attached a battery powered microcontroller to it with wires hanging out and I use it. Even though
 it does look like a bomb.
 
@@ -138,7 +137,7 @@ Seriously though, if you're actually asking this, be practical. I have a lot of 
 security experts because doing things right is actually really hard, but you have got to understand
 when some stuff just doesn't matter.
 
-**Why didn't I use bluetooth or xbee or smoke signals or something else?** I dunno. This is what I had
+**Why didn't you use bluetooth or xbee or smoke signals or something else?** I dunno. This is what I had
 lying around and could get working quickly.
 
 **Why is the arduino sketch file named two-buttons.cpp and not something that ends in .ino? Why
@@ -146,7 +145,7 @@ does it include a header file for Arduino.h?** Because the arduino IDE is an awf
 software and I made this using [PlatformIO](https://platformio.org/). The file was actually
 called main.cpp when I copied it off so consider this an improvement. You're welcome.
 
-**Wow, calling the Arduino IDE an awful piece of software is pretty harsh, why do I think that?**
+**Wow, calling the Arduino IDE an awful piece of software is pretty harsh, why do you think that?**
 Let me walk that back a little bit - the Arduino IDE is functional, and it gets people up and
 running with microcontrollers really quickly, so I shouldn't give it such a hard time. But I
 imagine that anyone doing anything serious gets tired of it pretty quickly. It's written in Java
@@ -154,7 +153,7 @@ and so has all the downsides of that environment, it cannot be driven by the com
 integrating it into a makefile is right out, and lastly (and this is huge) it doesn't support vi
 key bindings. And that's just what I can think of off the top of my head!
 
-**Did I test this?** Hardly at all.
+**Did you test this?** Hardly at all.
 
 **How long did this take to make?** I prototyped it in about half an hour on a breadboard. Then it
 sat on my bench for about 3 weeks before I busted out the soldering iron and drill and made it work
@@ -164,11 +163,11 @@ bigger case.
 
 I probably should have spent the time actually rowing rather than coding and soldering, but whatever.
 
-**How do I charge it?** I used to take the cover off, pull the battery, and charge it with another
+**How do you charge it?** I used to take the cover off, pull the battery, and charge it with another
 lipo charger. But since I moved from ESP8266 to ESP32 I put it into a larger case and exposed
 the USB port externally - so now I can charge it without taking it apart. I tend to use the rower
 before I lift weights, and so I now charge it while I'm lifting immediately after using it and then
 unplug it when I'm done so it's not left plugged in indefinitely. That seems long enough to top
 off the battery before I use it again.
 
-**Do I have a website?** Of course I do. It's right [here](https://www.b-rent.com/).
+**Do you have a website?** Of course I do. It's right [here](https://www.b-rent.com/).
