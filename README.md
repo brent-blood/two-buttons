@@ -106,7 +106,7 @@ DEBUG=0
 You shouldn't need to supply everything if you don't use it, but I would anyways. I'll admit that
 I didn't test this that thoroughly - so who knows - maybe it'll go crazy.
 
-### two-button-reader.py
+### two-buttons.py
 This is the client that runs on my mac. It listens for UDP datagrams that contain "prev" and "next"
 and then runs a short little AppleScript to send the keyboard events for left and right arrow to the
 Kindle app. It's absurd how easy Apple made this sort of thing! I went from having never used
