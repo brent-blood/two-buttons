@@ -122,7 +122,7 @@ college degree in electrical engineering.
 
 ## Questions You May Have (comments I don't care to explain again)
 
-**What did your wife say when she saw this?** The first words out of my wife's mouth were: "It looks
+**What did my wife say when she saw this?** The first words out of my wife's mouth were: "It looks
 like a bomb".
 
 **Do I actually use this?** Yes, I do. I bought a thousand dollar professional rowing machine and
@@ -146,7 +146,7 @@ does it include a header file for Arduino.h?** Because the arduino IDE is an awf
 software and I made this using [PlatformIO](https://platformio.org/). The file was actually
 called main.cpp when I copied it off so consider this an improvement. You're welcome.
 
-**Wow, calling the Arduino IDE an awful piece of software is pretty harsh, why do you think that?**
+**Wow, calling the Arduino IDE an awful piece of software is pretty harsh, why do I think that?**
 Let me walk that back a little bit - the Arduino IDE is functional, and it gets people up and
 running with microcontrollers really quickly, so I shouldn't give it such a hard time. But I
 imagine that anyone doing anything serious gets tired of it pretty quickly. It's written in Java
@@ -154,7 +154,7 @@ and so has all the downsides of that environment, it cannot be driven by the com
 integrating it into a makefile is right out, and lastly (and this is huge) it doesn't support vi
 key bindings. And that's just what I can think of off the top of my head!
 
-**Did you test this?** Hardly at all.
+**Did I test this?** Hardly at all.
 
 **How long did this take to make?** I prototyped it in about half an hour on a breadboard. Then it
 sat on my bench for about 3 weeks before I busted out the soldering iron and drill and made it work
@@ -171,4 +171,4 @@ before I lift weights, and so I now charge it while I'm lifting immediately afte
 unplug it when I'm done so it's not left plugged in indefinitely. That seems long enough to top
 off the battery before I use it again.
 
-**Do you have a website?** Of course I do. It's right [here](https://www.b-rent.com/).
+**Do I have a website?** Of course I do. It's right [here](https://www.b-rent.com/).
