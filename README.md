@@ -170,3 +170,5 @@ the USB port externally - so now I can charge it without taking it apart. I tend
 before I lift weights, and so I now charge it while I'm lifting immediately after using it and then
 unplug it when I'm done so it's not left plugged in indefinitely. That seems long enough to top
 off the battery before I use it again.
+
+**Do you have a website?** Of course I do. It's right [here](https://www.b-rent.com/).
