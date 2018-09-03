@@ -94,14 +94,14 @@ from the mcu's EEPROM.
 
 The SD card config file should be named "two-buttons.cfg", and an example config file looks like:
 
-WIFI_AP=my_wifi_network
-WIFI_PW=my_wifi_secret
-KINDLE_HOST=192.0.2.10
-KINDLE_PORT=9876
-TIVO_HOST=192.0.2.11
-TIVO_PORT=31339
-DEBOUNCE_DELAY=500
-DEBUG=0
+  WIFI_AP=my_wifi_network
+  WIFI_PW=my_wifi_secret
+  KINDLE_HOST=192.0.2.10
+  KINDLE_PORT=9876
+  TIVO_HOST=192.0.2.11
+  TIVO_PORT=31339
+  DEBOUNCE_DELAY=500
+  DEBUG=0
 
 You shouldn't need to supply everything if you don't use it, but I would anyways. I'll admit that
 I didn't test this that thoroughly - so who knows - maybe it'll go crazy.
